@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #linear modelling (Continuos variable)
+=======
+#linear modelling
+>>>>>>> bad1a5c93d9a2b6665451ab2a661041b24ff63f9
 =======
 #linear modelling
 >>>>>>> bad1a5c93d9a2b6665451ab2a661041b24ff63f9
@@ -53,6 +57,7 @@ wages %>% ggplot(aes(height, earn,alpha=I(0.4)))+
   ylab("Amount Earned")+
   ggtitle("Relationship Between Height and Earnings")
 <<<<<<< HEAD
+<<<<<<< HEAD
 ##using 95% confidence interval
 confint(mod,level = 0.95)#0.95 is the default
 autoplot(mod)#shows quantile, residuals graph, variance
@@ -83,6 +88,23 @@ wages %>% ggplot(aes( earn, col=sex))+
 wages %>% ggplot(aes(earn, col=race))+
   geom_density()+
   scale_color_discrete(name="Race")
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> bad1a5c93d9a2b6665451ab2a661041b24ff63f9
 
 
 
